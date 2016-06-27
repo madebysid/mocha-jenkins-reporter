@@ -1,6 +1,6 @@
 {
   "name": "mocha-jenkins-reporter",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "jenkins reporter for mocha",
   "main": "index.js",
   "directories": "./lib",
@@ -17,6 +17,7 @@
     "reporter"
   ],
   "dependencies": {
+    "colors": "^1.1.2",
     "diff": "1.0.7",
     "mkdirp": "0.5.0",
     "mocha": ">=2.0.0"
